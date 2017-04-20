@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Angel's Cakes</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="main.css">
+  <style>
+  .carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 70%;
+      margin: auto;
+  }
+  </style>
+</head>
+<body >
+  <header>
+    <div class="text-center">
+      <img src='CupcakeMultiple.png' class="hidden-xs" 'height:250px;'/>
+      <img src="Cupcake.png" class="hidden-lg hidden-md hidden-sm" 'height:250px;'>
+    </div>
+
+  <nav class="navbar">
+    <div class="container-fluid">
+      <ul class="nav navbar-nav">
+        <li ><a href="index.html" 'color:#F00FFF; padding-left:15px; padding-right:75px;'>Home</a></li>
+        <li><a href="ChiSiamo.html" 'color:#F00FFF; padding-left:15px; padding-right:75px;'>Chi siamo</a></li>
+        <li><a href="#">Le nostre ricette</a></li>
+        <li>
+          <form>
+          <div class="input-group">
+            <input type="text" class="form-control"  placeholder="Trova la ricetta">
+            <div class="input-group-btn">
+              <button class="btn btn-default" type="submit"><i class="glyphicon glyphicon-search"></i></button>
+            </div>
+          </div>
+        </form>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  </header>
+
+
+
+
+<div class="container">
+  <h3>Le nostre Ricette</h3>
+    <br>
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+        <li data-target="#myCarousel" data-slide-to="3"></li>
+        <li data-target="#myCarousel" data-slide-to="4"></li>
+        <li data-target="#myCarousel" data-slide-to="5"></li>
+        <li data-target="#myCarousel" data-slide-to="6"></li>
+        <li data-target="#myCarousel" data-slide-to="7"></li>
+      </ol>
+
+      <!-- Wrapper for slides -->
+      <div class="carousel-inner" role="listbox">
+        <div class="item active">
+          <img src="CheeseCake.jpg"  width="460" height="345">
+          <div class="carousel-caption">
+            <h3 style='color:#F00FFF;background-color:rgba(255,255,255,0.5);'>Cheese Cake ai frutti di bosco</h3>
+            <button class="btn" id="B1" style="background-color:#F00FFF;">Clicca qui per la ricetta</button>
+          </div>
+        </div>
+
+        <div class="item">
+          <img src="TortaMimosa.jpg"  width="460" height="345">
+          <div class="carousel-caption">
+            <h3 style='color:#F00FFF;background-color:rgba(255,255,255,0.5);'>Torta Mimosa all'Ananas</h3>
+            <button class="btn" id="B2" style="background-color:#F00FFF;">Clicca qui per la ricetta</button>
+          </div>
+        </div>
+
+        <div class="item">
+          <img src="Nutellotti.jpg"  width="460" height="345">
+          <div class="carousel-caption">
+            <h3 style='color:#F00FFF;background-color:rgba(255,255,255,0.5);'>Biscotti Nutellotti</h3>
+            <button class="btn"id="B3" style="background-color:#F00FFF;">Clicca qui per la ricetta</button>
+          </div>
+        </div>
+
+
+
+        <div class="item">
+          <img src="CrostataFragole.jpg"  width="460" height="345">
+          <div class="carousel-caption">
+            <h3 style='color:#F00FFF;background-color:rgba(255,255,255,0.5);'>Crostata di Fragole</h3>
+            <button class="btn" id="B4"style="background-color:#F00FFF;">Clicca qui per la ricetta</button>
+          </div>
+        </div>
+
+        <div class="item">
+          <img src="PanDiStelle.jpg" width="460" height="345">
+          <div class="carousel-caption">
+            <h3 style='color:#F00FFF;background-color:rgba(255,255,255,0.5);'>Torta Pan di Stelle</h3>
+            <button class="btn" id="B5"style="background-color:#F00FFF;">Clicca qui per la ricetta</button>
+          </div>
+        </div>
+
+        <div class="item">
+          <img src="Tiramisu.jpg" width="460" height="345">
+          <div class="carousel-caption">
+            <h3 style='color:#F00FFF;background-color:rgba(255,255,255,0.5);'>Tiramisu'</h3>
+            <button class="btn" id="B6"style="background-color:#F00FFF;">Clicca qui per la ricetta</button>
+          </div>
+        </div>
+
+        <div class="item">
+          <img src="Cup.jpg"  width="460" height="345">
+          <div class="carousel-caption">
+            <h3 style='color:#F00FFF;background-color:rgba(255,255,255,0.5);'>Cup Cake alla Vaniglia</h3>
+            <button class="btn" id="B7"style="background-color:#F00FFF;">Clicca qui per la ricetta</button>
+          </div>
+        </div>
+
+        <div class="item">
+          <img src="TortaBiscotti.jpg"  width="460" height="345">
+          <div class="carousel-caption">
+            <h3 'color:#F00FFF; background-color:rgba(255,255,255,0.5);' >Torta ai biscotti con Crema Chantilly e Nutella</h3>
+            <button class="btn" id="B8"style="background-color:#F00FFF;">Clicca qui per la ricetta</button>
+          </div>
+        </div>
+
+      </div>
+
+
+      <!-- Left and right controls -->
+      <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+  </div>
+  <div id="stelle" 'margin-top:20px;' class="col-lg-12 col-md-12 col-sm-12 text-center ">
+  </div>
+  <div id="stelle2" 'margin:20px 0 30px 0;' class="col-lg-12 col-md-12 col-sm-12 text-center ">
+  </div>
+  <div id="caricaRicetta" class="col-lg-12 col-md-12 col-sm-12">
+  </div>
+</div>
+
+<footer>
+  <div class="row" "margin:aut;">
+    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 ">
+
+      <ul "list-:none">
+        <li><h3>Contattaci</h3></li>
+        <li><img src='Facebook.png' 'height:30px;'><a href="https://www.facebook.com">Facebook</a></li>
+        <li><img src='Twitter.png' 'height:30px;'><a href="https://twitter.com">Twitter</a></li>
+        <li><img src='Youtube.png' 'height:30px;'><a href="https://youtube.com">Youtube</a></li>
+      </ul>
+    </div>
+    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 ">
+      <ul "list-:none">
+        <li><h3>Raccolte di ricette</h3></li>
+        <li><a href="#">10 ricette di biscotti</a></li>
+        <li><a href="#">Dolci vegani</a></li>
+        <li><a href="#">Dolci con la nutella</a></li>
+        <li><a href="#">Dolci con la frutta</a></li>
+      </ul>
+    </div>
+    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 ">
+      <ul "list-:none">
+        <li><h3>Trucchi e consigli</h3></li>
+        <li><a href="#">Glossario gastronomico</a></li>
+        <li><a href="#">Come pesare senza bilancia</a></li>
+        <li><a href="#">Come friggere</a></li>
+        <li><a href="#">Come fare una torta perfetta</a></li>
+      </ul>
+    </div>
+    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6"><img src="logo.png" class="img-responsive"></div>
+  </div>
+</footer>
+
+<script src="bower_components/jquery/dist/jquery.min.js"></script>
+<script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="bower_components/raty/lib/jquery.raty.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
