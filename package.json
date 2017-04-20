@@ -1,0 +1,16 @@
+{
+  "name": "projectwork",
+  "version": "1.0.0",
+  "description": "projectwork",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Angela Peluso Mariangela Schiavone",
+  "license": "ISC",
+  "dependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-less": "^1.4.1",
+    "grunt-contrib-watch": "^1.0.0"
+  }
+}

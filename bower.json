@@ -1,0 +1,27 @@
+{
+  "name": "projectwork",
+  "description": "projectwork",
+  "main": "index.html",
+  "authors": [
+    "Angela Peluso Mariangela Schiavone"
+  ],
+  "license": "ISC",
+  "homepage": "index.html",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "jquery": "^3.2.1",
+    "raty": "^2.7.1",
+    "jcarousel": "^0.3.5",
+  },
+  "resolutions": {
+    "jquery": "^3.2.1"
+  }
+}
