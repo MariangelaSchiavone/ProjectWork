@@ -1,0 +1,38 @@
+body {
+  background-color: #FFBBFF;
+  font-family: "Comic Sans MS";
+}
+header > div > img {
+  height: 250px;
+}
+.navbar {
+  background-color: #ffffff;
+}
+.container-fluid ul {
+  margin-left: 30px;
+}
+.container-fluid ul a {
+  color: #f00fff;
+  padding-left: 15px;
+  padding-right: 75px;
+}
+.container-fluid ul .input-group {
+  width: 700px;
+  padding-left: 15px;
+  padding-right: 75px;
+  padding-top: 8px;
+}
+.container ul {
+  list-style: none;
+}
+.container ul img {
+  height: 250px;
+}
+footer ul {
+  list-style: none;
+}
+footer ul img[src='Facebook.png'],
+footer ul img[src='Twitter.png'],
+footer ul img[src='Youtube.png'] {
+  height: 30px;
+}
